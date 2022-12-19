@@ -1,0 +1,9 @@
+name: ProtectPlugin
+version: '${project.version}'
+main: me.amuazm.protectplugin.ProtectPlugin
+api-version: 1.19
+commands:
+  spawn:
+    description: Teleports you back to spawn.
+  setworldspawnprotection:
+    description: Sets the spawn's radius of protection.
